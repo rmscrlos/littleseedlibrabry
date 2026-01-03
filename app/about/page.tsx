@@ -1,5 +1,11 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'About the Author',
+  description: 'Meet the heart behind Little Seed Library. A mother and storyteller dedicated to nurturing young hearts through faith-filled stories.',
+}
 
 export default function AboutPage() {
   return (

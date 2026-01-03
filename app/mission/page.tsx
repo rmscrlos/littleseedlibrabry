@@ -1,5 +1,11 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+  title: 'Our Mission',
+  description: 'Tales of Heavenly Manners was born from a longing to plant seeds of virtue in young hearts. Building up children with Biblical values—one story at a time.',
+}
 
 export default function MissionPage() {
   return (
