@@ -33,21 +33,6 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #1A1F1C;
-    --background-soft: #232A26;
-    --background-warm: #2A3330;
-    --foreground: #F5F0E6;
-    --primary: #5A8A6A;
-    --primary-light: #6B9B7B;
-    --primary-dark: #4A7D5A;
-    --accent: #7AAB8A;
-    --muted: #8B9B8F;
-    --border: #3D4A40;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
